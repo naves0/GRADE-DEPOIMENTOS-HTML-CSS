@@ -1,0 +1,51 @@
+@media (max-width: 375px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        height: auto;
+        align-items: center;
+    }
+    .conjunto-cards{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 360px;
+    }
+    .card-1{
+        width: 90%;
+        height: auto;
+        margin: 0 0 10px 0;
+    }
+    .card-2{
+        width: 90%;
+        height: auto;
+        margin: 10px 0 10px 0;
+    }
+    .card-3{
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .card-4{
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .card-unico {
+        width: 90%;
+        margin-top: 10px;
+    }
+    .imagem-fundo{
+        position: absolute;
+        margin-left: 45%;
+    }
+    
+    .imagem{
+        margin-top: -30px;
+        border-radius: 0;
+        width: 100px;
+        height: 100px;
+    }
+}
